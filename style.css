@@ -1,0 +1,25 @@
+:root {
+	--outerBg: hsl(217, 19%, 38%);
+	--innerCard: hsl(217, 19%, 24%);
+	--LightCyan: hsl(193, 38%, 86%);
+	--NeonGreen: hsl(150, 100%, 66%);
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: var(--outerBg);
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
