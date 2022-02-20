@@ -21,24 +21,28 @@ body {
 
 	display: flex;
 	justify-content: center;
-	min-height: 100vh;
 	align-items: center;
+	min-height: 100vh;
 }
 
 .card_container {
-	background: var(--innerCard);
+	background: var(--outerBg);
 	border-radius: 15px;
 	align-items: center;
-	box-shadow: 1rem 2rem 1rem rgba(0, 0, 0, 0.2);
+	box-shadow: 1rem 2rem 2rem 1rem rgba(0, 0, 0, 0.2);
 
 	display: flex;
 	flex-direction: column;
-	max-width: 50%;
+
+	max-width: 550px;
+	width: fit-content;
+	height: fit-content;
+	margin: auto 20px;
 }
 
 .advice__title,
 span#advice-number {
-	margin-top: 1em;
+	margin-top: 3em;
 	color: var(--NeonGreen);
 	font-size: 1rem;
 	font-weight: 400;
@@ -48,6 +52,9 @@ span#advice-number {
 
 #advice-text {
 	font-size: 1.2rem;
+	text-align: center;
+	line-height: 1.5rem;
+
 	margin: 2em 2em;
 	color: var(--LightCyan);
 }
@@ -57,7 +64,8 @@ span#advice-number {
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 1rem;
-	width: 10%;
+	width: 100%;
+	margin-bottom: 0.5em;
 }
 
 .dice__btn {
@@ -70,15 +78,21 @@ span#advice-number {
 }
 
 .dice__btn:hover,
-.dive__btn:focus {
+.dice__btn:focus {
 	cursor: pointer;
-	box-shadow: 2px 2px 10px 10px var(--NeonGreen);
+	animation: anim-btn-focus 0.8s forwards;
+}
+
+@keyframes anim-btn-focus {
+	100% {
+		box-shadow: 2px 2px 10px 10px var(--NeonGreen);
+	}
 }
 
 .attribution {
 	font-size: 0.75rem;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 20%;
 	color: var(--innerCard);
 }
 .attribution a {
