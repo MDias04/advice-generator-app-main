@@ -32,7 +32,7 @@ The users should be able to click the button and enjoy the advice of the day. Pr
 ### Links
 
 - Solution URL: (https://your-solution-url.com)
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://awesome-daily-advice-generator.netlify.app/)
 
 ## My process
 
