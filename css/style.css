@@ -41,7 +41,7 @@ body {
 }
 
 .advice__title,
-span#advice-number {
+#advice-num {
 	margin-top: 3em;
 	color: var(--NeonGreen);
 	font-size: 1rem;
@@ -60,11 +60,11 @@ span#advice-number {
 }
 
 .divider {
-	background-image: url('./images/pattern-divider-desktop.svg');
+	background-image: url('/images/pattern-divider-desktop.svg');
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 1rem;
-	width: 100%;
+	width: 90%;
 	margin-bottom: 0.5em;
 }
 
