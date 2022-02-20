@@ -54,7 +54,7 @@ No doubt that I have a lot to pratice and learn, I have a lot of questions and s
 
 ## Author
 
-- Website - [Marta Dias](https://www.your-site.com)
+- Website - [Marta Dias](ComingSoon)
 - Frontend Mentor - [@MDias04](https://www.frontendmentor.io/profile/MDias04)
 - Twitter - [@its_MDias](https://www.twitter.com/its_MDias)
 
