@@ -2,15 +2,15 @@ const adviceId = document.getElementById('advice-num');
 const adviceText = document.getElementById('advice-text');
 const diceBtn = document.getElementById('dice-btn');
 const URL = 'https://api.adviceslip.com/advice';
-// run the advice quote as soon as the page loads
-// fetch the api advice
 
+// run the advice quote as soon as the page loads
 window.onload = runAdvice;
 
 diceBtn.addEventListener('click', () => {
 	runAdvice();
 });
 
+// fetch the api advice
 async function runAdvice() {
 	fetch(URL)
 		.then((response) => response.json())
